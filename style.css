@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'dosis';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Chakra Petch';
+    color:black;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:gray;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.datasecurity {
+    margin-top: 100px;
+}
+
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'dosis';
+}
+
+h2 {
+    font-family: 'dosis';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white; ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: black;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:hsl(0, 0%, 100%) ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: gray;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+
+.datahilang {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.datakehilangan {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.datakehilangan img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.datakehilangan p{
+    font-family: 'dosis';
+    font-weight: 0px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    
+}
+
+.datakehilangan h2 {
+    font-family: 'dosis';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+.fitur-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fitur {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.fitur img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.fitur p{
+    font-family: 'dosis';
+    font-weight: 0px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    
+}
+
+.fitur h2 {
+    font-family: 'dosis';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+.partners-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partners {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partners img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-partners p{
+    font-family: 'dosis';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #71C9CE;
+    
+}
+
+#contact {
+    background: black;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'dosis';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.footer-section .logofooter  {
+    font-family: 'Chakra Petch';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.footer-section p{
+    color: white;
+
+}
+
+.footer-section a{
+    color: white;
+}
+
+.footer-section a:hover {
+    color: gray;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+    margin-top: 0px;
+
+}
+
+
+
+
