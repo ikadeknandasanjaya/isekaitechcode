@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     text-decoration: none;
     margin: 0px;
@@ -9,7 +9,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'dosis';
+    font-family: poppins;
 }
 
 .wrapper {
@@ -80,17 +80,17 @@ section {
 .kolom {
     margin-top: 100px;
     margin-bottom: 50px;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
     color: black;
-    font-family: 'dosis';
+    font-family: 'poppins';
 }
 
 h2 {
-    font-family: 'dosis';
+    font-family: 'poppins';
     font-weight: 800;
     font-size: 40px;
     margin-bottom: 20px;
@@ -158,7 +158,7 @@ p {
 }
 
 .datakehilangan p{
-    font-family: 'dosis';
+    font-family: 'poppins';
     font-weight: 0px;
     font-size: 15px;
     text-align: center;
@@ -167,7 +167,7 @@ p {
 }
 
 .datakehilangan h2 {
-    font-family: 'dosis';
+    font-family: 'poppins';
     font-weight: 800;
     font-size: 40px;
     margin-bottom: 5px;
@@ -194,7 +194,7 @@ p {
 }
 
 .fitur p{
-    font-family: 'dosis';
+    font-family: 'poppins';
     font-weight: 0px;
     font-size: 15px;
     text-align: center;
@@ -203,7 +203,7 @@ p {
 }
 
 .fitur h2 {
-    font-family: 'dosis';
+    font-family: 'poppins';
     font-weight: 800;
     font-size: 40px;
     margin-bottom: 5px;
@@ -230,7 +230,7 @@ p {
 }
 
 .kartu-partners p{
-    font-family: 'dosis';
+    font-family: 'poppins';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
@@ -258,7 +258,7 @@ p {
 }
 
 h3 {
-    font-family: 'dosis';
+    font-family: 'poppins';
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
@@ -295,8 +295,61 @@ h3 {
     width: 100%;
     padding: 25px 0px 25px 0px;
     margin-top: 0px;
-
 }
+
+@media(max-width:1250px){
+    .menu{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .home{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .tutors{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .mengerikan{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .fiturs{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .contact{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .footer-section{
+        width: 300px;
+    }
+}  
+
+@media(max-width:1250px){
+    .wrapper{
+        width: 300px;
+    }
+}  
+
+@media(max-width:1250px){
+    .copyright{
+        width: 300px;
+    }
+}  
 
 
 
