@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     text-decoration: none;
     margin: 0px;
@@ -9,7 +9,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: poppins;
 }
 
 .wrapper {
@@ -73,125 +73,118 @@ section {
     
 }
 
-.datasecurity {
-    margin-top: 100px;
+#contact {
+    background: black;
+    padding: 50px 0px 50px 0px;
 }
 
-.kolom {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 30px;
-}
-.kolom .deskripsi {
-    font-size: 20px;
-    font-weight: bold;
-    font-size: 'comic sans ms';
-    color: black;
-}
-
-h2 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: black;
+.footer {
     width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #FFFFFF;
     line-height: 50px;
 }
 
-a.tbl-biru {
-    background: black;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: white; ;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-biru:hover {
-    background: black;
-    text-decoration: none;
-}
-
-a.tbl-pink {
-    background: black;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color:hsl(0, 0%, 100%) ;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-pink:hover {
-    background: gray;
-    text-decoration: none;
-}
-
-p {
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
-}
-
-.tengah{
-    text-align: center;
-    width: 100%;
-}
-
-.tutor-list {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.kartu-tutor {
-    width: 20%;
-    margin: 0 auto;
-}
-
-.kartu-tutor img {
-    width: 80%;
-    border-radius: 50%;
-}
-
-.kartu-tutor p{
-    font-family: 'comic sans ms';
+.footer-section .logofooter  {
+    font-family: 'Chakra Petch';
     font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-    color: #71C9CE;
-    
-}
-
-.partners-list {
+    font-size: 30px;
+    margin-bottom: 20px;
     width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+    color: #FFFFFF;
+    line-height: 50px;
 }
 
-.kartu-partners {
-    width: 20%;
-    margin: 0 auto;
+.footer-section p{
+    color: white;
+
 }
 
-.kartu-partners img {
-    width: 80%;
-    border-radius: 50%;
+.footer-section a{
+    color: white;
 }
 
-.kartu-partners p{
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 25px;
+.footer-section a:hover {
+    color: gray;
+}
+
+.copyright {
     text-align: center;
-    color: #71C9CE;
-    
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+    margin-top: 0px;
 }
 
+@media(max-width:1250px){
+    .menu{
+        width: 300px;
+    }
+}
 
+@media(max-width:1250px){
+    .home{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .tutors{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .mengerikan{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .fiturs{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .contact{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .footer-section{
+        width: 300px;
+    }
+}  
+
+@media(max-width:1250px){
+    .wrapper{
+        width: 300px;
+    }
+}  
+
+@media(max-width:1250px){
+    .copyright{
+        width: 300px;
+    }
+}  
 
 
 
