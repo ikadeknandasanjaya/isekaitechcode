@@ -4,134 +4,12 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    font-family: poppins;
-    box-sizing: border-box;
 }
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
 
 body {
     margin: 0px;
     padding: 0px;
     font-family: poppins;
-}
-
-.tbl-biru {
-        background: black;
-        border-radius: 20px;
-        margin-top: 20px;
-        padding: 15px 20px 15px 20px;
-        color: white; ;
-        cursor: pointer;
-        font-weight: bold;
-    }
-
-.tbl-biru:hover {
-        background: black;
-        text-decoration: none;
-}
-/* Blog */
-#blog {
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    padding: 40px;
-}
-
-.blog-heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.blog-heading span {
-    color: orange;
-}
-
-.blog-heading h3{
-    font-size: 2.4rem;
-    color: black;
-    font-weight: 600;
-}
-
-.blog-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0px;
-    flex-wrap: wrap;
-}
-
-.blog-box{
-    width: 350px;
-    background-color: #FFFFFF;
-    border: 1px solid #ececec;
-    margin: 20px;
-}
-
-.blog-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.blog-text {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-}
-
-.blox-text span{
-    color: #f33c3c;
-    font-size: 0.9rem;
-}
-
-.blox-text .blog-title {
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #272727;
-}
-.blog-text .blog-title:hover {
-    color:orange; 
-    transition: all ease 0;
-}
-
-.blog-text p{
-    color: #9b9b9b;
-    font-size: 0.9rem;
-    display: -webkit -box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 20px 0px;
-}
-
-.blog-text a{
-    color: black;
-}
-
-.blog-text .blog-title:hover {
-    color: orange;
-    transition: all ease 0.3s;
-}
-
-.blog-text{ 
-    color: orange;
-}
-
-.blog-text a:hover {
-    color: orange;
-    transform: all ease 0.3s;
 }
 
 .wrapper {
@@ -188,6 +66,48 @@ nav ul li a:hover {
     color:gray;
 }
 
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.post-container {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem !important;
+    margin-left: 250px;
+}
+
+.header-img {
+    margin-left: 25px;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.back-home {    
+    color: orange;
+    font-size: 0.9rem;
+}
+
+.header-title {
+    width: 90%;
+    font-size: 2.6rem;
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 #contact {
     background: black;
     padding: 50px 0px 50px 0px;
@@ -205,6 +125,16 @@ nav ul li a:hover {
 .footer-section {
     width: 20%;
     margin: 0 auto;
+}
+
+h3 {
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #FFFFFF;
+    line-height: 50px;
 }
 
 .footer-section .logofooter  {
@@ -235,28 +165,35 @@ nav ul li a:hover {
     width: 100%;
     padding: 25px 0px 25px 0px;
     margin-top: 0px;
-
 }
 
 @media(max-width:1250px){
-    .blog-box{
+    .menu{
         width: 300px;
     }
 }
 
-@media(max-width:1100px){
-    .blox-box{
-        width: 70%;
+@media(max-width:1250px){
+    .home{
+        width: 300px;
     }
 }
 
-@media(max-width:1100px){
-    .blox-box{
-        margin: 20px 10px;
-        width: 100%;
+@media(max-width:1250px){
+    .tutors{
+        width: 300px;
     }
-    #blog{
-        padding: 20px;
+}
+
+@media(max-width:1250px){
+    .mengerikan{
+        width: 300px;
+    }
+}
+
+@media(max-width:1250px){
+    .fiturs{
+        width: 300px;
     }
 }
 
@@ -279,10 +216,11 @@ nav ul li a:hover {
 }  
 
 @media(max-width:1250px){
-    .footer-section{
+    .copyright{
         width: 300px;
     }
 }  
+
 
 
 
