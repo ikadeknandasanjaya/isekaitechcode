@@ -64,6 +64,7 @@ nav ul li a {
     text-align: center;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
+    transition: all 1s ease 0s;
 }
 
 nav ul li a:hover {
@@ -79,6 +80,8 @@ section {
 
 .datasecurity {
     margin-top: 100px;
+    width: 200%;
+    height: 200%;
 }
 
 .kolom {
@@ -116,6 +119,7 @@ a.tbl-biru {
 a.tbl-biru:hover {
     background: black;
     text-decoration: none;
+    transition: all 1s ease 0s;
 }
 
 a.tbl-pink {
