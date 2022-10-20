@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css">
     <title>JagaData - Tempat Kamu Ngelindugin Data</title>
     <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav>
         <div class="wrapper">
             <div class="logo"><a href="index.html">JagaData</a></div>
             <div class="menu">
-                <ul>
+                <ul class="transition">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="informasi.html">Informasi</a></li>
                     <li><a href="konsultasi.html">Konsultasi</a></li>
@@ -25,7 +26,7 @@
     </nav>
     <div class="wrapper">
         <!-- Welcome Notes -->
-        <section id="home">
+        <section data-aos="fade-up" id="home">
             <img class ="datasecurity"src="img/datasecurity.png"alt="">
             <div class="kolom">
                 <h2>Kenapa Kita Harus Menjaga Data?</h2>
@@ -36,7 +37,7 @@
         </section>
 
         <!-- Untuk Akibat Kehilangan Data -->
-        <section id="tutors">
+        <section data-aos="flip-right" id="tutors">
             <div class="tengah">
                 <div class="kolom">
                     <h2>Apa Yang Terjadi Jika Kamu Kehilangan Data?</h2>                    
@@ -45,7 +46,7 @@
                             <div class="datakehilangan">
                             <img src="img/profiling.png" alt="">
                             <h2>Profiling</h2>
-                            <p class="parafdatahilang">Data-data personal yang diambil bisa dipakai untuk rekayasa sosial hingga profiling (membuat profil pengguna). Bila 279 juta data tersebut diproses, maka big data itu bisa dianalisis yang bermanfaat untuk profiling penduduk.</p>
+                            <p class="parafdatahilang">Data-data personal yang diambil bisa dipakai untuk rekayasa sosial hingga profiling (membuat profil pengguna). Bila 279 juta data tersebut diproses, maka big data itu bisa dimanfaatkan.</p>
                             </div>
                             <div class="datakehilangan">
                             <img src="img/pembobolan.png" alt="">
@@ -56,7 +57,7 @@
                             <div class="datakehilangan">
                             <img src="img/pemerasan.png" alt="">
                             <h2>Pemerasan</h2>
-                            <p class="parafdatahilang">Data pribadi kita juga bisa disalahgunakan bagi peretas untuk mengajukan pinjaman online (pinjol). Kemudian kita baru sadar menjadi korban peretasan setelah muncul tagihan. Yang tak kalah parah, data kita bisa disebar ke sejumlah orang dan situs dengan status orang yang terlibat utang.</p>
+                            <p class="parafdatahilang">Data pribadi kita juga bisa disalahgunakan bagi peretas untuk mengajukan pinjaman online (pinjol). Kemudian kita baru sadar menjadi korban peretasan setelah muncul tagihan.</p>
                             </div>
                                 </div>
                             </div>
@@ -67,7 +68,7 @@
         </section>
         
         <!-- Untuk Ngeri-->
-        <section id="mengerikan">
+        <section data-aos="zoom-in" id="mengerikan">
             <div class="tengah">
             <div class="kolom">
                 <h2>Sangat Mengerikan Bukan?</h2>                
@@ -81,7 +82,8 @@
         </section>
 
         <!-- Untuk fitur -->
-        <section id="fiturs">
+        <section data-aos="fade-up"
+        data-aos-duration="3000" id="fiturs">
             <div class="tengah">
                 <div class="kolom">
                     <h2>Fitur Website Kami</h2>                    
@@ -151,6 +153,12 @@
             &copy; 2022 <b>JagaData</b> All Rights Reserved.
         </div>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="index.js"></script>
 </body>
 </html>

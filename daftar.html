@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styledaftar.css">
     <title>JagaData - Tempat Kamu Ngelindugin Data</title>
     <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav>
@@ -24,7 +25,7 @@
         </div>
     </nav>
     
-    <div class="container">
+<div data-aos="flip-left" class="container">
         <h1>Daftar</h1>
         <form>
             <label>Nama</label><br>
@@ -38,9 +39,9 @@
             <button>Daftar</button>
             <li><a href="login.html">jika anda sudah memiliki akun silahkan untuk Login</a></li>
         </form>
-    </div>
+</div>
 
-    <div id="contact">
+<div id="contact">
         <div class="wrapper">
             <div class="footer">
                 <div class="footer-section">
@@ -68,14 +69,17 @@
                 <p><b>Twitter</b> JagaData </p>
                 </div>    
             </div>
-        </div>
     </div>
+</div>
 
     <div class="copyright">
         <div class="wrapper">
             &copy; 2022 <b>JagaData</b> All Rights Reserved.
         </div>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>

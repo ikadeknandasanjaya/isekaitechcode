@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylekonsultasi.css">
     <title>JagaData - Tempat Kamu Ngelindugin Data</title>
     <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav>
@@ -23,7 +24,9 @@
             </div>
         </div>
     </nav>
-            <div class="container">
+            <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class="container">
                 <form action="https://formsubmit.co/el/dexino" method="POST">
                     <h3>Sampaikan Keluhanmu</h3>
                     <input type="text" name="name" placeholder="Nama" required>
@@ -71,6 +74,9 @@
             &copy; 2022 <b>JagaData</b> All Rights Reserved.
         </div>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>

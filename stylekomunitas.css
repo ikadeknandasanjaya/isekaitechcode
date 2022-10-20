@@ -91,6 +91,8 @@ section {
 .komenfb {
     margin: auto;
     text-align: center;
+    margin-top: 250px;
+    margin-bottom: 400px;
 }
 
 #contact {
@@ -103,7 +105,6 @@ section {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
 
 }
 

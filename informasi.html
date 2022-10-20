@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="styleinformasi.css">
     <title>JagaData - Tempat Kamu Ngelindungin Data</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="img/favicon.png">
 </head>
 <body>
@@ -13,7 +14,7 @@
         <div class="wrapper">
             <div class="logo"><a href="index.html">JagaData</a></div>
             <div class="menu">
-                <ul>
+                <ul class="transition">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="informasi.html">Informasi</a></li>
                     <li><a href="konsultasi.html">Konsultasi</a></li>
@@ -28,7 +29,8 @@
 
 
             <!-- Heading -->
-            <div class="blog-heading">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="top-center" class="blog-heading">
                 <span>Informasi Terbaru</span>
                 <h3> <b>JagaData</b></h3>
             </div>
@@ -36,7 +38,8 @@
         </section>
 
         <!-- Block Container -->
-        <div class="blog-container">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-center" class="blog-container">
 
             <!-- Box 1 -->
             <div class="blog-box">
@@ -65,7 +68,7 @@
                 <div class="blog-text">
                     <span>20 Oktober 2022</span>
                     <a href="artikel2.html" class="blog-title">Cara Menyimpan Password Dengan Aman</a>
-                    <p>Di dunia yang serba digital saat ini dengan menjaga data dari kebocoran menjadi salah satu hal penting yang harus dilakukan. Hal ini demi mencegah terjadinya hal-hal merugikan seperti menjadi korban kejahatan dunia maya (cybercrime).</p>
+                    <p>Di dunia yang serba digital saat ini dengan menjaga data dari kebocoran menjadi salah satu hal penting yang harus dilakukan. Hal ini demi mencegah terjadinya hal-hal merugikan.</p>
                     <a href="artikel2.html">Read More</a>
                 </div> 
         </div>
@@ -80,7 +83,7 @@
             <div class="blog-text">
                 <span>20 Oktober 2022</span>
                 <a href="artikel3.html" class="blog-title">Hal Hal Yang Dapat Mengancam Data Kamu</a>
-                <p>Halo sobat Jaga Data, Belakangan ini kebocoran data kerap terjadi di berbagai platform digital. Tren peretasan ini menjadi ancaman siber yang perlu diwaspadai, terlebih jika berhubungan dengan data-data pribadi yang semestinya dilindungi.</p>
+                <p>Halo sobat Jaga Data, Belakangan ini kebocoran data kerap terjadi di berbagai platform digital.</p>
                 <a href="artikel3.html">Read More</a>
             </div> 
     </div>
@@ -123,6 +126,12 @@
             &copy; 2022 <b>JagaData</b> All Rights Reserved.
         </div>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="index.js"></script>
 </body>
 </html>

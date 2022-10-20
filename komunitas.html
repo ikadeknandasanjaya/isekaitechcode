@@ -10,6 +10,7 @@
     <div id="fb-root"></div>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v15.0&appId=327034762103745&autoLogAppEvents=1" nonce="BK34EJZm"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav>
@@ -27,7 +28,10 @@
         </div>
     </nav>
     
-    <div class="komenfb">
+<div data-aos="fade-left"
+data-aos-anchor="#example-anchor"
+data-aos-offset="500"
+data-aos-duration="500" class="komenfb">
     <div class="fb-comments" data-href="http://127.0.0.1:5500/komunitas.html" data-width="" data-numposts="1"></div>
     </div>
 
@@ -67,6 +71,9 @@
             &copy; 2022 <b>JagaData</b> All Rights Reserved.
         </div>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
