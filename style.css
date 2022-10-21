@@ -292,7 +292,7 @@ h3 {
 }
 
 @media(max-width:1250px){
-    .home{
+    .wrapper{
         width: 300px;
     }
 }
@@ -306,6 +306,18 @@ h3 {
 @media(max-width:1250px){
     .mengerikan{
         width: 300px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .datakehilangan h2{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .fitur-list .tbl-biru {
+        width: 70%;
     }
 }
 

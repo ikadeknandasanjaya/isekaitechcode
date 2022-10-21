@@ -88,7 +88,7 @@ section {
 }
 
 .header-img {
-    margin-left: 25px;
+    margin-left: auto;
     width: 100%;
     height: 420px;
     object-fit: cover;
@@ -179,25 +179,19 @@ h3 {
     }
 }
 
-@media(max-width:1250px){
-    .tutors{
-        width: 300px;
+@media screen and (max-width:500px){
+    section{
+        width: 70%;
     }
 }
 
-@media(max-width:1250px){
-    .mengerikan{
-        width: 300px;
+@media screen and (max-width:500px){
+    .header-img{
+        width: 70%;
     }
 }
 
-@media(max-width:1250px){
-    .fiturs{
-        width: 300px;
-    }
-}
-
-@media(max-width:1250px){
+@media screen and (max-width:1250px){
     .contact{
         width: 300px;
     }
